@@ -7,6 +7,8 @@
 **先看这个**：[docs/语气小抄-介绍与安装教程.pdf](docs/语气小抄-介绍与安装教程.pdf)（图文版，给人看的）
 **怎么让你的 AI 真的用上**：[docs/使用教程.md](docs/使用教程.md)
 
+**语气提示词大全**：[docs/语气提示词大全.md](docs/语气提示词大全.md)（[PDF 版](docs/语气提示词大全.pdf)）：所有标记、语气词、标点、MiniMax 19 个标签、组合配方
+
 ## 文件
 
 ```
@@ -15,9 +17,11 @@ say-it-like-you-mean-it/        ← 这个文件夹就是 skill
   references/playbook.md        教 AI 每次都用、灵活用（给 AI 看）
   references/tags.md            标记、语气词、小声音词库
   references/models.md          几家声音怎么选，实测数据和官方出处
+  references/prompt-list.zh.md  语气提示词大全（同 docs 里那份）
 docs/
   语气小抄-介绍与安装教程.pdf    给人看的图文介绍
   使用教程.md                    设置、引导、检查、提醒
+  语气提示词大全.md / .pdf       所有能用的语气提示词
 ```
 
 ## 三十秒上手

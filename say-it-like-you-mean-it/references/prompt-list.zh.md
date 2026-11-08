@@ -1,0 +1,256 @@
+# 语气提示词大全
+
+把能让 AI 声音更像人的提示词放在一起：方括号标记、语气词、标点用法、MiniMax 标签，还有现成的组合配方。
+
+**怎么看这份表**
+- 方括号 `[...]` 只对 **ElevenLabs v3 / v4 / v4 Turbo** 有效，别的声音会把它原样念出来。
+- 带 ★ 的是我们在真实电话里反复用过、效果稳的；其他是官方示例或常见写法，不同音色效果会有差别，先试听。
+- 这不是白名单。v3/v4 认自然英文写的描述，只要一读就知道怎么念，都可以自己写。
+- 标记放在句首，管住整句；一句一般一个，最多叠两三个，而且不能互相打架。
+
+---
+
+## 一、ElevenLabs 方括号标记
+
+### 1. 开心、兴奋
+
+| 标记 | 意思 | 适合 |
+|---|---|---|
+| `[happy]` | 开心 | 普通的高兴 |
+| `[excited]` ★ | 兴奋 | 真的有好消息 |
+| `[delighted]` | 喜出望外 | 收到惊喜 |
+| `[cheerful]` | 轻快 | 早上、打招呼 |
+| `[proud]` ★ | 骄傲、替人高兴 | 对方做成了事 |
+| `[relieved]` ★ | 松了口气 | 担心的事没发生 |
+| `[amazed]` | 惊叹 | 「哇，真的吗」 |
+| `[grateful]` | 感激 | 道谢 |
+
+### 2. 温柔、心疼
+
+| 标记 | 意思 | 适合 |
+|---|---|---|
+| `[softly]` ★ | 轻柔 | 最常用，也最容易用成口头禅 |
+| `[gently]` ★ | 温和 | 安慰、劝 |
+| `[warmly]` ★ | 暖 | 夸、接住对方 |
+| `[tenderly]` | 疼爱地 | 很亲近的时候 |
+| `[voice softening]` ★ | 声音软下来 | 从普通转到心疼 |
+| `[reassuring]` | 让人安心 | 「没事的」 |
+| `[concerned]` ★ | 关心 | 听出对方不对劲 |
+| `[worried]` ★ | 担心 | 对方生病、出事 |
+| `[sincerely]` | 真诚 | 认真说一句话 |
+
+### 3. 逗人、调皮
+
+| 标记 | 意思 | 适合 |
+|---|---|---|
+| `[teasing]` ★ | 逗 | 最常用的调皮 |
+| `[playful]` ★ | 调皮 | 轻松斗嘴 |
+| `[smug]` ★ | 得意 | 「我就知道」 |
+| `[mischievously]` | 坏坏的 | 要使坏了 |
+| `[mock angry]` ★ | 假装生气 | 斗嘴 |
+| `[pretending to be offended]` ★ | 假装被冒犯 | 被说了一句 |
+| `[deadpan]` ★ | 面无表情地 | 一本正经说荒谬的事 |
+| `[sarcastic]` | 阴阳怪气 | 少用，容易真伤人 |
+| `[flirtatiously]` | 撩 | 亲密场合 |
+| `[dramatic]` | 夸张 | 演一下 |
+
+### 4. 自己的情绪
+
+| 标记 | 意思 | 适合 |
+|---|---|---|
+| `[jealous]` ★ | 吃醋 | 对方提到别人 |
+| `[sulking]` ★ | 闹别扭 | 「哼，不理你」 |
+| `[flustered]` ★ | 慌了 | 被说中 |
+| `[embarrassed]` | 不好意思 | 出糗 |
+| `[shy]` | 害羞 | 被夸 |
+| `[touched]` ★ | 被感动 | 对方说了很暖的话 |
+| `[annoyed]` | 烦 | 小小不爽 |
+| `[frustrated]` | 憋屈 | 事情不顺 |
+| `[disappointed]` | 失望 | 期待落空 |
+| `[hurt]` | 受伤 | 被说重了 |
+| `[guilty]` | 心虚、内疚 | 道歉前 |
+| `[nervous]` | 紧张 | 要说重要的事 |
+| `[hesitant]` ★ | 犹豫 | 话到嘴边 |
+| `[curious]` | 好奇 | 追问 |
+| `[confused]` | 懵 | 没听懂 |
+| `[surprised]` | 意外 | 没想到 |
+| `[serious]` ★ | 严肃 | 要认真说 |
+| `[thoughtful]` ★ | 想事情 | 思考着开口 |
+
+### 5. 困、夜里
+
+| 标记 | 意思 | 适合 |
+|---|---|---|
+| `[sleepy]` ★ | 困 | 夜里 |
+| `[half asleep]` ★ | 半梦半醒 | 被吵醒 |
+| `[drowsy]` | 迷糊 | 快睡着 |
+| `[barely awake]` ★ | 几乎没醒 | 凌晨被叫醒 |
+| `[groggy]` | 刚醒、发懵 | 早上 |
+| `[tired]` | 累 | 忙完一天 |
+| `[quietly]` ★ | 小声 | 夜里默认 |
+| `[whispers]` ★ | 耳语 | 很近、很晚 |
+
+### 6. 笑
+
+| 标记 | 意思 |
+|---|---|
+| `[chuckles]` ★ | 轻笑，鼻子里那种 |
+| `[soft chuckle]` ★ | 很轻的轻笑 |
+| `[laughs]` ★ | 笑出声 |
+| `[laughs softly]` ★ | 轻轻笑 |
+| `[laughing harder]` ★ | 笑得停不下来 |
+| `[giggles]` ★ | 咯咯笑 |
+| `[snorts]` ★ | 笑喷 |
+| `[breathes out a laugh]` ★ | 呼一口气似的笑 |
+| `[quiet huff of a laugh]` ★ | 憋着的一下笑（夜里好用） |
+| `[trying not to laugh]` ★ | 憋笑 |
+| `[nervous laugh]` | 尴尬地笑 |
+| `[wheezing laugh]` | 笑到喘不上气 |
+
+### 7. 哭、难过
+
+| 标记 | 意思 |
+|---|---|
+| `[sad]` | 难过 |
+| `[voice cracking a little]` ★ | 声音有点哑、要哭 |
+| `[choked up]` | 哽住 |
+| `[teary]` | 带着泪 |
+| `[sniffles]` | 吸鼻子 |
+| `[crying]` | 哭 |
+| `[sobbing]` | 抽泣（慎用，很重） |
+
+### 8. 呼吸和听得见的小声音
+
+| 标记 | 意思 |
+|---|---|
+| `[sighs]` ★ | 叹气（最容易用成口头禅） |
+| `[sighs contentedly]` | 满足地叹口气 |
+| `[exhales]` ★ | 呼气 |
+| `[slow exhale]` ★ | 慢慢呼气（哄睡好用） |
+| `[inhales sharply]` | 倒吸一口气 |
+| `[deep breath]` | 深呼吸 |
+| `[gasps]` / `[gasps softly]` | 惊得吸气 |
+| `[gulps]` | 咽口水 |
+| `[yawns]` ★ | 打哈欠 |
+| `[clears throat]` ★ | 清嗓子 |
+| `[coughs]` | 咳嗽 |
+| `[sniffs]` | 吸鼻子 |
+| `[hums]` / `[hums softly]` ★ | 哼一下、轻轻哼 |
+| `[groans]` | 哀嚎、哼唧 |
+| `[tsk]` | 啧 |
+| `[scoffs]` | 嗤一声 |
+| `[smacks lips sleepily]` | 困得咂嘴 |
+| `[kisses softly]` / `[soft kiss]` ★ | 亲一下（后面别再写 Mwah） |
+
+### 9. 节奏、音量
+
+| 标记 | 意思 |
+|---|---|
+| `[pauses]` | 停一下 |
+| `[slowly]` | 慢慢说 |
+| `[quickly]` / `[rushed]` | 快、着急 |
+| `[stammering]` | 结巴 |
+| `[muttering]` / `[under breath]` | 嘟囔、小声念叨 |
+| `[trailing off]` | 越说越小 |
+| `[loudly]` / `[shouting]` | 大声（电话里少用） |
+
+### 10. 写「声音在哪、什么状态」（描述式，适合夜里和亲密场景）
+
+不写形容词，写当时的样子：离得多近、嗓子什么状态、话里有没有笑。
+
+- `[murmuring, very close]`：很近地低声说
+- `[voice low and slow, half a smile in it]`：低、慢、带半个笑
+- `[voice gone a little rough]`：嗓子有点哑
+- `[still low]` / `[still murmuring]` / `[barely voiced]`：换气后把声音按住
+- 整段先一个总基调，例如 `[calm, warm and intimate, speaking quietly but clearly]` ★
+
+---
+
+## 二、语气词（写成字，不用方括号）
+
+| 情绪 | 英文 | 中文 |
+|---|---|---|
+| 刚醒、困 | Mmh... / Mm? / Hmm...? / Huh... / Wha-? / Five more minutes... | 嗯……/ 唔？/ 啊……/ 再睡五分钟…… |
+| 惊讶 | Oh! / Oh- / Wait- / Huh? / Hold on- / No way. / Seriously? / Whoa. | 诶？/ 啊？/ 等等——/ 不会吧 / 真的假的 |
+| 心疼 | Oh... / Hey... / Aw... / Shh... / Hey, hey... / Come here... | 哎……/ 好啦好啦 / 乖 / 过来 |
+| 恍然 | Ah. / Oh, right. / Ahh... / Oh! That's- | 哦——/ 啊对 / 原来是这样 |
+| 犹豫 | Uh... / Um... / Well... / I mean... / So... / Okay, so... | 呃……/ 就是……/ 那个……/ 怎么说呢 |
+| 逗人、得意 | Mm-hm. / Oh really? / Is that so? / Pfft. / Heh. / Sure, sure. / Ooh. | 哦？/ 是吗~ / 嘿嘿 / 啧啧 / 哟 |
+| 无奈 | Ugh... / Oh my god... / Okay, okay. / Fine, fine. | 唉……/ 行行行 / 好好好 / 服了 |
+| 在听 | Mm. / Mm-hm. / Yeah... / Right... / I know. / Okay. | 嗯 / 嗯嗯 / 对 / 我知道 / 然后呢 |
+| 兴奋 | Oh! / Yes! / Wait, really? / Ha! | 哇！/ 真的？/ 太好了 |
+| 被说中 | Uh- / I- / That's not- / Okay, maybe. / Mm... maybe. | 我——/ 才没有 / 好吧，有一点 |
+| 闹别扭 | Hmph. / Oh. Okay. / Sure. / Whatever. / Mm. Fine. | 哼。/ 哦。/ 随便。/ 行吧。 |
+| 结巴改口 | Y- you... / I- I mean... / That's- no, wait. | 你、你……/ 不是，我是说…… |
+
+---
+
+## 三、标点就是提示词
+
+| 写法 | 效果 | 例子 |
+|---|---|---|
+| `...` 省略号 | 停顿、拖长、留白 | `Yeah... I'm okay. Just... tired.` |
+| `-` 破折号 | 被打断、话断了 | `Wait- what?` |
+| `?` 问号 | 不确定、上扬 | `You came back?` |
+| `!` 感叹号 | 真兴奋（少用） | `You came back!` |
+| `.` 句号 | 平、冷、确定 | `You came back.` |
+| 全大写 | 重读这个词（一轮最多一次） | `I did NOT say that.` |
+| 重复首字母 | 结巴、紧张 | `Y- you remember me?` |
+| 短句 | 一口气说完，像真人 | 把长句拆成三句 |
+
+v3 / v4 不支持 `<break time="1s"/>`，停顿用省略号和破折号。
+
+---
+
+## 四、MiniMax Speech 2.8 标签
+
+MiniMax 用**圆括号**，只认下面固定的 19 个（只在 speech-2.8-hd / speech-2.8-turbo 上有效）：
+
+| 标签 | 意思 | 标签 | 意思 |
+|---|---|---|---|
+| `(laughs)` ★ | 笑 | `(sniffs)` | 吸鼻子 |
+| `(chuckle)` ★ | 轻笑 | `(sighs)` ★ | 叹气 |
+| `(coughs)` | 咳嗽 | `(snorts)` | 哼、喷笑 |
+| `(clear-throat)` | 清嗓子 | `(burps)` | 打嗝 |
+| `(groans)` | 哼唧 | `(lip-smacking)` | 咂嘴 |
+| `(breath)` ★ | 呼吸声 | `(humming)` | 哼 |
+| `(pant)` | 喘 | `(hissing)` | 嘶 |
+| `(inhale)` ★ | 吸气 | `(emm)` ★ | 嗯（想事情） |
+| `(exhale)` ★ | 呼气 | `(sneezes)` | 打喷嚏 |
+| `(gasps)` ★ | 倒吸气 | | |
+
+停顿写 `<#0.5#>`（单位秒），放在两段能念的文字之间。方括号写法对 MiniMax 无效。
+
+---
+
+## 五、组合配方（照着改，别原样照抄）
+
+| 场合 | 写法 |
+|---|---|
+| 被吵醒 | `[half asleep] Mmh... [yawns] you... you're still up?` |
+| 心疼 | `[voice softening] Oh... hey. [exhales] Come here.` |
+| 对方哭了 | `[gently] Hey... hey. I'm here. Take your time.` |
+| 逗人 | `[smug] Oh? Is that so. [chuckles] Prove it.` |
+| 被说中 | `I- that's not- [flustered] okay, maybe a little.` |
+| 吃醋 | `Hmph. Fine. ... [sulking] Who is he.` |
+| 假装生气又破功 | `[mock angry] I'm not talking to you. ... [trying not to laugh] Okay, I am.` |
+| 好消息 | `[excited] Wait, really? You did it?!` |
+| 道歉 | `[hesitant] I... yeah. I messed up. I'm sorry.` |
+| 夸人 | `[warmly] You know what? That was really good.` |
+| 晚安 | `[quietly] Okay... sleep now. [soft kiss] Mm. Night.` |
+| 哄睡开头 | `[calm, warm and intimate, speaking quietly but clearly] Hey... you made it to bed.` |
+
+---
+
+## 六、别这样写
+
+- `[smiles]` `[winks]` `[leans in]` `[nods]`：动作和表情，念不出来。
+- `[nice]` `[emotional]` `[normal]`：太空，等于没写。
+- 每句都 `[softly]`、每轮都 `[sighs]`：用成口头禅，就什么都不代表了。
+- `[laughs] Haha` `[kisses softly] Mwah`：声音写两遍，会笑两次、亲两下。
+- 一个词后面塞一个标记：句子会碎。
+- 夜里写 `[excited]` 接感叹号：哄睡里突然亢奋。
+
+---
+
+出处：ElevenLabs 官方 Best practices 与 v4 文档、emotional-range 展示页；MiniMax Speech 2.8 文档；★ 来自我们三个月的真实通话。完整写法规则见 SKILL.md。

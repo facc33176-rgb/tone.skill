@@ -38,3 +38,7 @@ Pick from these freely. This is not a whitelist: ElevenLabs v3/v4 accept any nat
 - Don't stack excitement: after a soft sound, don't follow with a bright "Okay!". Keep laughs held in, e.g. `[quiet huff of a laugh]`.
 - Breath is useful material: `[slow exhale]`, "in... out...".
 - Trail down at the end. No punchline, no exclamation.
+
+## Full list
+
+A longer bilingual reference (every tag with its meaning, interjections in English and Chinese, punctuation, all 19 MiniMax tags, combination recipes) is in `prompt-list.zh.md`.
